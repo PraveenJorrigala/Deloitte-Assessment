@@ -1,0 +1,57 @@
+<html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form {
+            border: 3px solid #f1f1f1;
+            width: 300px;
+            margin: 0 auto;
+        }
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+        .container {
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Login Form</h2>
+    <form action="/action_page.php">
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+        </div>
+    </form>
+</body>
+</html>
+```
+
+This code creates a simple login form with fields for a username and password. The form is styled using CSS to make it more visually appealing. You can modify the code to suit your needs and add additional functionality as needed.

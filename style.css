@@ -1,0 +1,84 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+.popUpBox{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.question{
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #86bc25;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;  
+}
+.question span{
+    width: 100px;
+}
+.description{
+    
+    padding: 10px;
+}
+.description div{
+    color: #000;
+    background-color:#d8e4c3;
+    padding: 10px;
+    border-radius: 5px;
+}
+.description span{
+    display: block;
+    color: blue;
+    background-color: white;
+}
+.images div{
+    margin: 10px;
+    padding: 10px;
+    width: 286px;
+    height: 286px;
+    background-color:#d8e4c3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.images div img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.images div input{
+    width: 20px;
+    height: 20px;
+}
+.submit{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.submit button{
+    color: #83878e;
+    background-color: #bbbbbb;
+    border: none;
+    padding: 10px 30px 10px 30px;
+}
+
+@media screen and (max-width: 1199px){
+    .popUpBox{
+        display: flex;
+        flex-direction: column;
+    }
+    .question{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;  
+    }
+
+}
